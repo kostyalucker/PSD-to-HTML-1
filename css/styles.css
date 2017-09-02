@@ -1,0 +1,260 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/styles.scss */
+body {
+  font-family: 'Helvetica';
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/styles.scss */
+img {
+  width: 100%;
+}
+
+/* line 16, ../sass/styles.scss */
+.container {
+  margin: auto;
+}
+
+/*COMMON CLASSES*/
+/* line 22, ../sass/styles.scss */
+.primary-text {
+  color: #54a82a;
+}
+
+/*Header*/
+/* line 28, ../sass/styles.scss */
+.main-header {
+  border-bottom: 1px solid #ccc;
+}
+
+/*Navbar*/
+/* line 34, ../sass/styles.scss */
+.navbar {
+  text-transform: uppercase;
+}
+
+/* line 38, ../sass/styles.scss */
+.navbar li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+
+/* line 44, ../sass/styles.scss */
+.navbar a {
+  text-decoration: none;
+  color: #888;
+}
+
+/* line 49, ../sass/styles.scss */
+.navbar ul .current a, .navbar a:hover {
+  color: #54a82a;
+  border-bottom: 3px solid #54a82a;
+  padding-bottom: 3px;
+}
+
+/* line 55, ../sass/styles.scss */
+.showcase {
+  background: url("../images/showcase.jpg") no-repeat center center;
+  border-bottom: 1px solid #54a82a;
+  margin-bottom: 30px;
+}
+
+/* line 61, ../sass/styles.scss */
+.showcase .row {
+  height: 600px;
+}
+
+/* line 65, ../sass/styles.scss */
+.showcase h1 {
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/* line 72, ../sass/styles.scss */
+.showcase p {
+  color: #ccc;
+  margin: 0;
+}
+
+/* line 77, ../sass/styles.scss */
+.showcase .showcase-content {
+  background: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 20px;
+  opacity: .9;
+}
+
+/*features*/
+/* line 88, ../sass/styles.scss */
+.features h2 {
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* line 94, ../sass/styles.scss */
+.features p {
+  color: #999;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+/* line 100, ../sass/styles.scss */
+.features .fa {
+  font-size: 60px;
+  color: #54a82a;
+}
+
+/* line 105, ../sass/styles.scss */
+.info {
+  background: #333 url("../images/info-bg.jpg") no-repeat;
+  color: #f2f2f2;
+}
+
+/* line 110, ../sass/styles.scss */
+.info h2 {
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* line 117, ../sass/styles.scss */
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 122, ../sass/styles.scss */
+.info li {
+  line-height: 2em;
+  font-size: 20px;
+}
+
+/*Company*/
+/* line 129, ../sass/styles.scss */
+.company {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* line 135, ../sass/styles.scss */
+.company h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* line 141, ../sass/styles.scss */
+.company ul {
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+/* line 146, ../sass/styles.scss */
+.company input[type="text"] {
+  padding: 7px;
+}
+
+/* line 151, ../sass/styles.scss */
+.company button {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+/*footer*/
+/* line 161, ../sass/styles.scss */
+.main-footer {
+  background: #54a82a;
+  color: #fff;
+}
+
+/*Page*/
+/* line 168, ../sass/styles.scss */
+.page {
+  margin-bottom: 40px;
+}
+
+/* line 172, ../sass/styles.scss */
+.services ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+/* line 178, ../sass/styles.scss */
+.services ul li:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+
+/* line 183, ../sass/styles.scss */
+.services ul li:nth-child(even) {
+  background: #54a82a;
+  color: #fff;
+}
+
+/*Contact*/
+/* line 190, ../sass/styles.scss */
+.contact form {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 197, ../sass/styles.scss */
+.contact form input[type="text"] {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 203, ../sass/styles.scss */
+.contact form input {
+  margin-bottom: 10px;
+}
+
+/* line 207, ../sass/styles.scss */
+.contact form textarea {
+  width: 50%;
+  height: 100px;
+}
+
+/* line 212, ../sass/styles.scss */
+.contact form button {
+  width: 50%;
+  padding: 10px 0;
+  border: 0;
+  background: #222;
+  color: #fff;
+}
+
+/* line 220, ../sass/styles.scss */
+.contact form label {
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  /* line 226, ../sass/styles.scss */
+  .showcase .showcase-content {
+    padding: 40px 10px;
+  }
+}
+@media (max-width: 800px) {
+  /* line 233, ../sass/styles.scss */
+  .showcase h1 {
+    font-size: 30px;
+  }
+}
