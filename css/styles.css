@@ -3,6 +3,9 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../sass/styles.scss */
+
+@import 'compass/reset';
+
 body {
   font-family: 'Helvetica';
   font-size: 17px;
@@ -36,6 +39,7 @@ img {
 /*Navbar*/
 /* line 34, ../sass/styles.scss */
 .navbar {
+  float: right;
   text-transform: uppercase;
 }
 
